@@ -139,7 +139,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fase.cpp" />
+    <ClCompile Include="fitaled.cpp" />
+    <ClCompile Include="gerEventos.cpp" />
+    <ClCompile Include="jogo.cpp" />
+    <ClCompile Include="led.cpp" />
     <ClCompile Include="Projeto_oficinas.cpp" />
+    <ClCompile Include="T_class.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fase.h" />
+    <ClInclude Include="fitaled.h" />
+    <ClInclude Include="gerEventos.h" />
+    <ClInclude Include="jogo.h" />
+    <ClInclude Include="led.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="T_class.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Faixa.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Super_Mario_Bros.ogg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
